@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Mélody</title>
+</head>
+<body>
+
+  <!-- 1. En-tête du site -->
+  <header>
+    <h1>Mélody Portfolio</h1>
+    <p>Une passion pour la création et l'innovation</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. Section principale -->
+  <main>
+    <h2>Articles récents</h2>
+
+    <article>
+      <h3>Projet de prédiction Bitcoin</h3>
+      <p><time datetime="2025-04-22">22 avril 2025</time></p>
+      <p>Utilisation du LSTM et NLP pour analyser les cours du Bitcoin.</p>
+      <a href="projets/projet1.html">Lire la suite</a>
+    </article>
+
+    <article>
+      <h3>Analyse de sentiments avec Word2Vec</h3>
+      <p><time datetime="2025-04-20">20 avril 2025</time></p>
+      <p>Classification de sentiments de textes avec Scikit-learn.</p>
+      <a href="projets/projet2.html">Lire la suite</a>
+    </article>
+
+    <article>
+      <h3>Tableau de bord Kibana</h3>
+      <p><time datetime="2025-04-18">18 avril 2025</time></p>
+      <p>Création de dashboards clairs à partir d'Excel pour le secteur santé.</p>
+      <a href="projets/projet3.html">Lire la suite</a>
+    </article>
+  </main>
+
+  <!-- 3. Barre latérale -->
+  <aside>
+    <section>
+      <h3>Catégories populaires</h3>
+      <ul>
+        <li>Data Science</li>
+        <li>Visualisation</li>
+        <li>Projets personnels</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>À propos</h3>
+      <p>Je suis Mélody, data analyste passionnée par la santé, le sport et l'art. Bienvenue sur mon portfolio !</p>
+    </section>
+  </aside>
+
+  <!-- 4. Pied de page -->
+  <footer>
+    <p>Mentions légales | <a href="about.html">À propos</a> | <a href="contact.html">Contact</a></p>
+    <p>&copy; 2025 Mélody. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
+
