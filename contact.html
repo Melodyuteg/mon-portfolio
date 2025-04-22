@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Portfolio de Mélody</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mélody Portfolio</h1>
+    <p>Une passion pour la création et l'innovation</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="categories.html">Catégories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contactez-moi</h2>
+
+    <form>
+      <fieldset>
+        <legend>Informations personnelles</legend>
+
+        <label for="nom">Nom *</label><br>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="email">Email *</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="sujet">Sujet *</label><br>
+        <input type="text" id="sujet" name="sujet" required><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message</legend>
+        <label for="message">Votre message *</label><br>
+        <textarea id="message" name="message" rows="6" required></textarea><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Options</legend>
+
+        <label><input type="checkbox" name="newsletter"> S'abonner à la newsletter</label><br>
+        <label><input type="radio" name="type" value="info"> Demande d'informations</label><br>
+        <label><input type="radio" name="type" value="collab"> Proposer une collaboration</label><br>
+
+        <label for="origine">Comment avez-vous connu mon site ?</label><br>
+        <select id="origine" name="origine">
+          <option value="linkedin">LinkedIn</option>
+          <option value="github">GitHub</option>
+          <option value="ami">Bouche à oreille</option>
+        </select>
+      </fieldset>
+
+      <br>
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <h3>Ou contactez-moi directement :</h3>
+    <p>Email : melody.contact@email.com</p>
+  </main>
+
+  <footer>
+    <p>Mentions légales | <a href="about.html">À propos</a></p>
+    <p>&copy; 2025 Mélody. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
