@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catégories - Portfolio de Mélody</title>
+</head>
+<body>
+
+  <!-- En-tête commun -->
+  <header>
+    <h1>Mélody Portfolio</h1>
+    <p>Une passion pour la création et l'innovation</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section principale -->
+  <main>
+    <h2>Catégories</h2>
+
+    <dl>
+      <dt>Data Science</dt>
+      <dd>Projets de traitement et d’analyse de données</dd>
+      <ul>
+        <li><a href="projets/projet1.html">Prédiction du prix du Bitcoin</a></li>
+      </ul>
+
+      <dt>Deep Learning</dt>
+      <dd>Utilisation des réseaux de neurones pour des prédictions</dd>
+      <ul>
+        <li><a href="projets/projet1.html">Prédiction du prix du Bitcoin</a></li>
+      </ul>
+
+      <dt>NLP</dt>
+      <dd>Analyse du langage naturel avec Word2Vec, classification de sentiments</dd>
+      <ul>
+        <li><a href="projets/projet2.html">Analyse de sentiments avec Word2Vec</a></li>
+      </ul>
+
+      <dt>Data Viz</dt>
+      <dd>Création de dashboards interactifs pour visualiser des données</dd>
+      <ul>
+        <li><a href="projets/projet3.html">Dashboard santé avec Kibana</a></li>
+      </ul>
+
+      <dt>Santé</dt>
+      <dd>Projets dans le secteur médical et hospitalier</dd>
+      <ul>
+        <li><a href="projets/projet3.html">Dashboard santé avec Kibana</a></li>
+      </ul>
+    </dl>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>Mentions légales | <a href="about.html">À propos</a> | <a href="contact.html">Contact</a></p>
+    <p>&copy; 2025 Mélody. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
+
