@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard santé avec Kibana</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mélody Portfolio</h1>
+    <p>Une passion pour la création et l'innovation</p>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../about.html">À propos</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Dashboard santé avec Kibana</h1>
+    <p><time datetime="2025-04-18">Publié le 18 avril 2025</time> par <a href="../about.html">Mélody</a></p>
+
+    <p><strong>Catégories :</strong> <a href="../categories.html">Data Viz</a>, <a href="../categories.html">Santé</a></p>
+
+    <img src="../images/kibana.jpg" alt="Tableau de bord Kibana" width="600">
+
+    <h2>Contexte</h2>
+    <p>Ce projet avait pour but de créer un dashboard clair et interactif pour visualiser des indicateurs de performance dans le secteur de la santé.</p>
+
+    <h2>Fonctionnalités clés</h2>
+    <ul>
+      <li>Filtrage par protocole</li>
+      <li>Affichage des indicateurs sous forme de graphiques</li>
+      <li>Export des visualisations</li>
+    </ul>
+
+    <blockquote>
+      "Un bon dashboard permet une meilleure prise de décision."
+    </blockquote>
+  </main>
+
+  <section>
+    <h3>Commentaires</h3>
+    <p>Section commentaire non activée sur ce site.</p>
+  </section>
+
+  <section>
+    <h3>Articles liés</h3>
+    <ul>
+      <li><a href="projet1.html">LSTM & Bitcoin</a></li>
+      <li><a href="projet2.html">Sentiments & Word2Vec</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Mentions légales | <a href="../about.html">À propos</a> | <a href="../contact.html">Contact</a></p>
+    <p>&copy; 2025 Mélody. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>

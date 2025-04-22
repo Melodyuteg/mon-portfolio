@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prédiction du Bitcoin - Portfolio de Mélody</title>
+</head>
+<body>
+
+  <!-- En-tête similaire -->
+  <header>
+    <h1>Mélody Portfolio</h1>
+    <p>Une passion pour la création et l'innovation</p>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../about.html">À propos</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenu principal -->
+  <main>
+    <h1>Prédiction du prix du Bitcoin avec LSTM</h1>
+    <p><time datetime="2025-04-22">Publié le 22 avril 2025</time> par <a href="../about.html">Mélody</a></p>
+
+    <p><strong>Catégories :</strong> <a href="../categories.html">Data Science</a>, <a href="../categories.html">Deep Learning</a></p>
+
+    <img src="../images/bitcoin-lstm.jpg" alt="Graphique de prédiction Bitcoin" width="600">
+
+    <h2>Introduction</h2>
+    <p>Ce projet a pour but de prédire les prix journaliers du Bitcoin en utilisant un réseau de neurones LSTM.</p>
+
+    <h2>Étapes principales</h2>
+    <ul>
+      <li>Préparation et agrégation des données</li>
+      <li>Normalisation et création des séquences temporelles</li>
+      <li>Entraînement du modèle LSTM</li>
+      <li>Évaluation des résultats</li>
+    </ul>
+
+    <h2>Extrait de code</h2>
+    <pre><code>
+model = Sequential()
+model.add(LSTM(50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(50))
+model.add(Dense(1))
+    </code></pre>
+
+    <blockquote>
+      "La donnée est la matière première du 21e siècle."
+    </blockquote>
+  </main>
+
+  <!-- Section commentaires (désactivée) -->
+  <section>
+    <h3>Commentaires</h3>
+    <p>Le formulaire de commentaire est désactivé pour cette démo.</p>
+  </section>
+
+  <!-- Articles liés -->
+  <section>
+    <h3>Articles liés</h3>
+    <ul>
+      <li><a href="projet2.html">Analyse de sentiments avec Word2Vec</a></li>
+      <li><a href="projet3.html">Visualisation santé avec Kibana</a></li>
+    </ul>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>Mentions légales | <a href="../about.html">À propos</a> | <a href="../contact.html">Contact</a></p>
+    <p>&copy; 2025 Mélody. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>

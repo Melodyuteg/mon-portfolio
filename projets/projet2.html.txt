@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analyse de sentiments avec Word2Vec</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mélody Portfolio</h1>
+    <p>Une passion pour la création et l'innovation</p>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../about.html">À propos</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Analyse de sentiments avec Word2Vec</h1>
+    <p><time datetime="2025-04-20">Publié le 20 avril 2025</time> par <a href="../about.html">Mélody</a></p>
+
+    <p><strong>Catégories :</strong> <a href="../categories.html">NLP</a>, <a href="../categories.html">Machine Learning</a></p>
+
+    <img src="../images/sentiment.jpg" alt="Visualisation de Word2Vec" width="600">
+
+    <h2>Objectif</h2>
+    <p>L’objectif de ce projet était de classifier des textes selon leur tonalité (positif, neutre, négatif) en utilisant Word2Vec et un classificateur scikit-learn.</p>
+
+    <h2>Pipeline utilisé</h2>
+    <ol>
+      <li>Prétraitement des données textuelles (nettoyage, tokenisation)</li>
+      <li>Vecteurs Word2Vec</li>
+      <li>Entraînement du modèle de classification</li>
+    </ol>
+
+    <h2>Code d'exemple</h2>
+    <pre><code>
+from gensim.models import Word2Vec
+model = Word2Vec(sentences, vector_size=100, window=5, min_count=1, workers=4)
+    </code></pre>
+  </main>
+
+  <section>
+    <h3>Commentaires</h3>
+    <p>Formulaire désactivé pour cette démonstration.</p>
+  </section>
+
+  <section>
+    <h3>Articles liés</h3>
+    <ul>
+      <li><a href="projet1.html">Prédiction Bitcoin avec LSTM</a></li>
+      <li><a href="projet3.html">Dashboard santé avec Kibana</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Mentions légales | <a href="../about.html">À propos</a> | <a href="../contact.html">Contact</a></p>
+    <p>&copy; 2025 Mélody. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
